@@ -1,8 +1,8 @@
-# Caesar cypher cryptography method for Odin Project exercise (Ruby Buidling Blocks)
+# Caesar cipher cryptography method for Odin Project exercise (Ruby Buidling Blocks)
 
 # take input from user - string and integer by which to shift each character
 
-def caesar(x, y = 0)
+def caesar_cipher(x, y = 0)
 
 # break input into individual characters
 
@@ -57,4 +57,4 @@ def caesar(x, y = 0)
 
 end
 
-puts caesar("What a string!", 5)
+puts caesar_cipher("What a string!", 5)

@@ -1,7 +1,7 @@
 
 
 def substrings(str, dctnry)
-	output = Hash.new
+	answer = Hash.new
 	dctnry.each do |word|
 		str = str.downcase
 		word = word.downcase
@@ -9,5 +9,5 @@ def substrings(str, dctnry)
 		counter = str.scan(word).length
 		output[word] = counter if counter > 0
 	end
-	output
+	answer
 end

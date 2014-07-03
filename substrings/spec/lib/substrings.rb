@@ -5,7 +5,7 @@ def substrings(str, dctnry)
 		word = word.downcase
 		counter = 0
 		counter = str.scan(word).length
-		output[word] = counter if counter > 0
+		answer[word] = counter if counter > 0
 	end
 	answer
 end

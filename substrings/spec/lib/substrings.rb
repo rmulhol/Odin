@@ -1,5 +1,3 @@
-
-
 def substrings(str, dctnry)
 	answer = Hash.new
 	dctnry.each do |word|

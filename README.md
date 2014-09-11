@@ -1,1 +1,1 @@
-Exercises complete while learning code at The Odin Project
+Exercises completed while learning code at [The Odin Project](www.theodinproject.com)
